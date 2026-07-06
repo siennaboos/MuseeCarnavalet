@@ -1,0 +1,145 @@
+/* Customization 1: Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Cormorant Garamond', 'Poppins', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* Customization 2: Custom Color Scheme — Regal Red & Gold */
+:root {
+    --wine: #4a0e14;
+    --wine-dark: #2e0810;
+    --burgundy: #6e1423;
+    --gold: #c9a24b;
+    --gold-bright: #e6c368;
+    --ivory: #faf3e6;
+    --ink: #2b1b1f;
+}
+
+body {
+    background-color: var(--ivory);
+    background-image:
+        radial-gradient(circle at 50% 0%, rgba(201,162,75,0.08), transparent 60%);
+    color: var(--ink);
+}
+
+nav {
+    background: linear-gradient(180deg, var(--wine) 0%, var(--wine-dark) 100%);
+    padding: 1rem 2rem;
+    border-bottom: 3px solid var(--gold);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: var(--gold-bright);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    transition: border-color 0.2s ease;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    color: #fff;
+    border-bottom-color: var(--gold);
+}
+
+header {
+    background:
+        linear-gradient(180deg, var(--burgundy) 0%, var(--wine) 100%);
+    color: var(--ivory);
+    text-align: center;
+    padding: 3rem 2rem;
+    border-bottom: 6px double var(--gold);
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 2.5rem;
+    color: var(--gold-bright);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 0.03em;
+}
+
+/* Customization 3: Custom Margins, Padding, and Layout */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: #fffdf8;
+    border: 2px solid var(--gold);
+    outline: 1px solid var(--burgundy);
+    outline-offset: -6px;
+    box-shadow: 0 4px 20px rgba(74,14,20,0.15);
+    border-radius: 4px;
+}
+
+.intro {
+    margin-bottom: 3rem;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 4px;
+    margin: 1rem auto;
+    display: block;
+    border: 4px solid var(--gold);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.contact {
+    border-top: 3px double var(--gold);
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    color: var(--wine);
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.5rem;
+    border-bottom: 3px solid var(--gold);
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    color: var(--burgundy);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+main ul {
+    background-color: #f7ecd8;
+    border: 1px solid var(--gold);
+    padding: 1.5rem 2rem;
+    border-radius: 4px;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+li::marker {
+    color: var(--gold);
+}
