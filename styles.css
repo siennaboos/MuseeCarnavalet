@@ -143,3 +143,26 @@ li {
 li::marker {
     color: var(--gold);
 }
+
+@media (max-width: 768px) {
+    nav ul {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 0.7rem;
+        letter-spacing: 0.02em;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        gap: 0.6rem;
+    }
+
+    nav a {
+        font-size: 0.65rem;
+    }
+}
