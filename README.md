@@ -1,4 +1,6 @@
 # MuseeCarnavalet
-Website for our Musee Carnavalet visit guide
+Website for our Musee Carnavalet visit guide:
 
-Sienna Boos, Gracie Walkup, Mina Akyildiz
+https://siennaboos.github.io/MuseeCarnavalet/index.html
+
+Website created by Sienna Boos. Content created by Sienna Boos, Gracie Walkup, and Mina Akyildiz.
